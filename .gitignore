@@ -47,3 +47,4 @@ coverage/
 # Optional: ignore local dev SSL certs
 *.pem
 *.key
+node_modules/
