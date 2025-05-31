@@ -121,14 +121,7 @@ export default function Contact() {
     }
   };
 
-  // const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-  //   const files = Array.from(e.target.files || []);
-  //   setSelectedFiles(prev => [...prev, ...files]);
-  // };
 
-  // const removeFile = (index: number) => {
-  //   setSelectedFiles(prev => prev.filter((_, i) => i !== index));
-  // };
 
   const handleChange = (
     e: React.ChangeEvent<
