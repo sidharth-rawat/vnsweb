@@ -23,7 +23,7 @@ export default function Contact() {
     message: "",
   });
 
-  const [selectedFiles, setSelectedFiles] = useState<File[]>([]);
+  
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [submitStatus, setSubmitStatus] = useState<{
     success?: boolean;
@@ -65,7 +65,7 @@ export default function Contact() {
               service: "",
               message: "",
             });
-            setSelectedFiles([]);
+            
           },
           (error) => {
             console.log("Failed to send email:", error.text);
@@ -129,7 +129,7 @@ export default function Contact() {
     >,
   ) => {
     const { name, value } = e.target;
-    setFormData((prev: any) => ({
+    setFormData((prev) => ({
       ...prev,
       [name]: value,
     }));
@@ -341,8 +341,9 @@ export default function Contact() {
                     your journey to financial success.
                   </p>
                   <p className="text-gray-600 mt-2">
-                    Whether you're looking for a personal loan, a business loan,
-                    equity financing or a mortgage, we've got you covered.
+                    Whether you&apos;re looking for a personal loan, a business loan,
+
+                    equity financing or a mortgage, weve got you covered.
                   </p>
                   <p className="text-gray-600 mt-2">
                     Get in touch with our team to discuss how we can help your

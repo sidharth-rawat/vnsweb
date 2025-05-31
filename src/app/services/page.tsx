@@ -46,8 +46,8 @@ export default function About() {
                 At VnS Solutions, we take pride in being your trusted partner
                 for all your loan needs. Our comprehensive range of services is
                 designed to simplify your journey to financial success. Whether
-                you're looking for a personal loan, a business loan, equity
-                financing or a mortgage, we've got you covered. Here's how we
+                you&apos;re looking for a personal loan, a business loan, equity
+                financing or a mortgage, we&apos;ve got you covered. Here&apos;ves how we
                 can help you:
               </p>
             </motion.div>

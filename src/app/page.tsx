@@ -1,5 +1,5 @@
 "use client";
-import React, { lazy } from "react";
+import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Slider from "react-slick";
@@ -142,7 +142,7 @@ export default function Home() {
                   loan option for your needs. Trust VnS Solutions to help you
                   turn your financial goals into reality, with the security and
                   confidence that comes from partnering with a reliable and
-                  reputable financial institution. Let's build a legacy of
+                  reputable financial institution. Let&apos;s build a legacy of
                   success together.
                 </p>
               </motion.div>
