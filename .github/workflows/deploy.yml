@@ -18,7 +18,10 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install  # Use `npm ci` if you have package-lock.json
+
+      - name: Clean previous build
+        run: rm -rf .next
 
       - name: Build with Netlify Next
         run: |
