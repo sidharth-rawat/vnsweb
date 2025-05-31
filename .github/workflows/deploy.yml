@@ -23,10 +23,9 @@ jobs:
       - name: Clean previous build
         run: rm -rf .next
 
-      - name: Build with Netlify Next
-        run: |
-          npm run build
-          npx netlify next
+      - name: Build Next.js
+        run: npm run build
+
 
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v2.0.0
